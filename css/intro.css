@@ -1,0 +1,55 @@
+.intro-block {
+   background-image: url("../images/bg-intro.jpg");
+   background-size: cover;
+   min-height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+h1 {
+	color: white;
+	font-size: 115px;
+	position: relative;
+	text-align: center;
+}
+
+h1 strong {
+	color: rgb(21, 170, 214);
+}
+
+.link-down {
+   width: 44px;
+   height: 44px;
+   background: rgba(152, 158, 162, 0.2);
+   position: absolute;
+   border-radius: 50%;
+   border: 2px solid grey;
+   transition: all 0.3s ease;
+   bottom: 40px;
+   left: 50%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.link-down:hover {
+   background: rgba(152, 158, 162, 0.5);
+   transform: translateY(10px);
+}
+
+.link-down::before {
+  content: "";
+  display: block;
+  width: 10px;
+  height: 10px;
+  border: 2px solid #e9385f;
+  border-top: none;
+  border-right: none; 
+  transform: rotate(-45deg);
+} 
+
+.link-down:hover::before {
+  transform: rotate(-45deg) scale(1.4);
+
+}
+
