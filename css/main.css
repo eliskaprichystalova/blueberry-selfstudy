@@ -1,5 +1,8 @@
 @import "./reset.css";
+@import "./variables.css";
 @import "./navigation.css";
 @import "./layout.css";
 @import "./intro.css";
-@import "./icon-box.css"
+@import "./icon-box.css";
+@import "./components/container.css";
+@import "./typo.css";
